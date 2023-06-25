@@ -1,0 +1,128 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Ansh Gupta
+email: anshrg@arizona.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  Landing page to showcase Ansh Gupta's computational projects and outreach work. I'm a fourth year astronomy and physics undergraduate student at the University of Arizona. My research interests are large sky surveys of AGN, specifically high redshift quasars, and the application of AI/machine learning to scientific misinformation in written content.
+twitter_username: Ansh_Gupta_UA
+github_username: anshrg
+minimal_mistakes_skin: default
+search: true
+masthead_title: "Ansh Gupta"
+repository: "anshrg.github.io"
+teaser: /assets/images/ansh_mw.jpg.png 
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: US/Arizona
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+social:
+  type:  # Person or Organization (defaults to Person)
+  name:  # If the user or organization name differs from the site's name
+  links:
+    - "https://twitter.com/Ansh_Gupta_UA"
+    - "https://www.linkedin.com/in/ansh-gupta-1b2620199/"
+    - "https://github.com/anshrg"
+
+author:
+  name   : "Ansh R. Gupta (he/him)"
+  avatar : "/assets/images/bio-photo.png"
+  bio    : "Astronomy and physics major at the University of Arizona. Currently studying high redshift quasars with **[Xiaohui Fan](https://www.as.arizona.edu/people/faculty/xiaohui-fan)** and **[Jinyi Yang](https://www.as.arizona.edu/people/faculty/jinyi-yang)**."
+  
+  links:
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://anshrg.github.io/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/anshrg"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ansh-gupta-1b2620199/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/Ansh_Gupta_UA"
+    - label: "anshrg@arizona.edu"
+      icon: "fa fa-solid fa-fw fa-envelope"
+      url: "mailto:anshrg@arizona.edu"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/Ansh_Gupta_UA"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/anshrg"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ansh-gupta-1b2620199/"
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/

@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ansh Gupta
-email: anshrg@arizona.edu
+email: anshrg@utexas.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Landing page to showcase Ansh Gupta's computational projects and outreach work. I'm a fourth year astronomy and physics undergraduate student at the University of Arizona. My research interests are large sky surveys of AGN, specifically high redshift quasars, and the application of AI/machine learning to scientific misinformation in written content.
+  Landing page to showcase Ansh Gupta's research and outreach work. I'm a Graduate Research Fellow at The University of Texas at Austin. I am interested in using JWST to answer questions about the earliest black holes in the universe. I would like to probe the seeds of supermassive black holes and constrain how these black holes evolved in the early universe.
 twitter_username: Ansh_Gupta_UA
 github_username: anshrg
 minimal_mistakes_skin: default
@@ -32,7 +32,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: US/Arizona
+timezone: US/Central
 
 include:
   - _pages
@@ -62,14 +62,14 @@ social:
   type:  # Person or Organization (defaults to Person)
   name:  # If the user or organization name differs from the site's name
   links:
-    - "https://twitter.com/Ansh_Gupta_UA"
+    - "https://x.com/Ansh_Gupta_UT"
     - "https://www.linkedin.com/in/ansh-gupta-1b2620199/"
     - "https://github.com/anshrg"
 
 author:
   name   : "Ansh R. Gupta (he/him)"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Astronomy and physics major at the University of Arizona. Currently studying high redshift quasars with **[Xiaohui Fan](https://www.as.arizona.edu/people/faculty/xiaohui-fan)** and **[Jinyi Yang](https://www.as.arizona.edu/people/faculty/jinyi-yang)**."
+  bio    : "Graduate Research Fellow at The University of Texas at Austin. Currently using JWST to investigate high redshift galaxies and black holes with **[Steven Finkelstein](https://www.as.utexas.edu/~stevenf/index.html)**"
   
   links:
 #    - label: "Website"
@@ -83,16 +83,16 @@ author:
       url: "https://www.linkedin.com/in/ansh-gupta-1b2620199/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/Ansh_Gupta_UA"
-    - label: "anshrg@arizona.edu"
+      url: "https://x.com/Ansh_Gupta_UT"
+    - label: "anshrg@utexas.edu"
       icon: "fa fa-solid fa-fw fa-envelope"
-      url: "mailto:anshrg@arizona.edu"
+      url: "mailto:anshrg@utexas.edu"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/Ansh_Gupta_UA"
+      url: "https://x.com/Ansh_Gupta_UT"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/anshrg"

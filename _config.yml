@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ansh Gupta
+title: Ansh R. Gupta
 email: anshrg@utexas.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Landing page to showcase Ansh Gupta's research and outreach work. I'm a Graduate Research Fellow at The University of Texas at Austin. I am interested in using JWST to answer questions about the earliest black holes in the universe. I would like to probe the seeds of supermassive black holes and constrain how these black holes evolved in the early universe.
-twitter_username: Ansh_Gupta_UA
+twitter_username: Ansh_Gupta_UT
 github_username: anshrg
 minimal_mistakes_skin: default
 search: true
-masthead_title: "Ansh Gupta"
+masthead_title: "Ansh R. Gupta"
 repository: "anshrg.github.io"
 teaser: /assets/images/ansh_mw.jpg.png 
 
